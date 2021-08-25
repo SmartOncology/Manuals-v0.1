@@ -1,0 +1,43 @@
+
+title: SmartOncology
+author: Peter Schuhmacher (PhD), Nikola Cihoric (MD)
+logo: SmartOncoLogo.png
+
+
+    
+#######################################################################################
+# Parse and render settings
+parse:
+  myst_enable_extensions:  # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+    - amsmath
+    - colon_fence
+    # - deflist
+    - dollarmath
+    # - html_admonition
+    # - html_image
+    - linkify
+    # - replacements
+    # - smartquotes
+    - substitution
+
+  myst_url_schemes          : [mailto, http, https]  # URI schemes that will be recognised as external URLs in Markdown links
+
+html:
+  favicon: ./SmartOncoLogo.png                       # Path to a favicon image
+  navbar_footer_text: Visit our <a href="https://github.com/SmartOncology/Manuals-v0.1/">GitHub
+    Repository</a><div> This book is powered by <a href="https://jupyterbook.org">Jupyter
+    Book</a></div>
+
+#######################################################################################
+# Launch button settings
+launch_buttons:
+  notebook_interface        : classic  # The interface interactive links will activate ["classic", "jupyterlab"]
+  binderhub_url             : https://mybinder.org  # The URL of the BinderHub (e.g., https://mybinder.org)
+  jupyterhub_url            : ""  # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)
+  thebe                     : false  # Add a thebe button to pages (requires the repository to run on Binder)
+  colab_url                 : "" # The URL of Google Colab (https://colab.research.google.com)
+
+repository:
+  url                       : https://github.com/SmartOncology/Manuals-v0.1/  # The URL to your book's repository
+  path_to_book              : ""  # A path to your book's folder, relative to the repository root.
+  branch                    : master  # Which branch of the repository should be used when creating links
