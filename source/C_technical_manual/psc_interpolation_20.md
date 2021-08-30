@@ -1,10 +1,11 @@
-Title: Mapping of mean values and interpolation of distributions
-Date: 2018-06-25 17:50
-Category: ComputationalFluidDynamics
-Tags: Python, probablility densitiy function
-Slug: spatial-interpolation-python
-Cover: /posts/img5104/output_6_1.png
-Authors: Peter Schuhmacher
+- Title: Mapping of mean values and interpolation of distributions
+- Date: 2018-06-25 17:50
+- Category: ComputationalFluidDynamics
+- Tags: Python, probablility densitiy function
+- Slug: spatial-interpolation-python
+- Cover: /posts/img5104/output_6_1.png
+- Authors: Peter Schuhmacher
+
 Summary: We explore the building of mean values and interpolations when data have more than 1 dimension. We generate numerically a macro finite element so that arbitrary sized data can be anlalysed taking  their inherent structure into account.
 
 An interpolated value or a mean value $\phi_P$ is most often evaluated by it's neighbouring values using:
