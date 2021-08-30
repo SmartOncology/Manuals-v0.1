@@ -1,0 +1,23 @@
+format: jb-book
+root: index
+parts:
+   - caption: 1 - Overview
+     chapters:
+     - file: source/A_overviews/psc_Recaman_Sequ_01
+     - file: source/A_overviews/psc_1dim_grid_
+     
+   - caption: 2 - User manual
+     chapters:
+     - file: source/B_user_manual/psc_matterhorn_evaluate_14 
+     - file: source/B_user_manual/cfd-01-rectangular-grid-genereation-python
+     - file: source/B_user_manual/cfd-02-body-fitted-grid-genereation-python
+     
+   - caption: 3 - Technical manual
+     chapters:
+     - file: source/C_technical_manual/psc_interpolation_20
+     - file: source/C_technical_manual/cfd-03-grids-for-airfoils
+     
+   - caption: 4 - Project and community
+     chapters:
+     - file: source/D_project_and_community/psc_ArtPastell_11 
+     - file: source/D_project_and_community/psc_midpoint_1D_14
